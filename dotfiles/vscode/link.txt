@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Configurando dotfiles do VSCode..."
+
+ln -s ~/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
+ln -s ~/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json
+ln -s ~/dotfiles/vscode/snippets ~/.config/Code/User/snippets
+
+echo "Configuração do VSCode concluída."
